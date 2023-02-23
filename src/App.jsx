@@ -5,10 +5,12 @@ import { Projects } from './pages/Projects.jsx';
 import { Contact } from './pages/Contact.jsx';
 import { ErrorPage } from './pages/ErrorPage.jsx';
 import { Home } from './pages/Home.jsx';
+import { CursorFancy } from './components/cursorFancy.jsx';
 
 function App() {
     return (
         <div className="p-2 bg-black">
+            <CursorFancy />
             <Router>
                 <Navbar />
                 <div className='min-h-screen'>
